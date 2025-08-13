@@ -7,7 +7,7 @@ Ruksita Panya
 npx prisma studio
 ```
 
-## Devolo
+## Develo
 ```bash
 npx prisma generate
 ```
