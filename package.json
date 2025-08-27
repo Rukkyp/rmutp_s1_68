@@ -1,4 +1,10 @@
 {
+  "scripts": {
+    "build": "tsc -p app",
+    "start": "node app/dis/server.js",
+    "dev": "ts-nodee app/server.ts",
+    "tsc": "tsc -p app && node app/dist/server.js"
+  },
   "dependencies": {
     "@hono/node-server": "^1.19.0",
     "@prisma/client": "^6.14.0",
