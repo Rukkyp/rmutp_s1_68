@@ -1,9 +1,8 @@
 {
   "scripts": {
-    "build": "tsc -p app",
+    "build": "tsc app/server.ts --outDir dist",
     "start": "node app/dis/server.js",
-    "dev": "ts-nodee app/server.ts",
-    "tsc": "tsc -p app && node app/dist/server.js"
+    "dev": "ts-nodee app/server.ts"
   },
   "dependencies": {
     "@hono/node-server": "^1.19.0",

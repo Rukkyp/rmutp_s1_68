@@ -42,3 +42,7 @@ npx prisma db push
 ```bash
 npx prisma generate
 ```
+## Develop
+```bash
+npx run build
+```
