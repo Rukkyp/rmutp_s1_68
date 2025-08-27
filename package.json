@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "tsc app/server.ts --outDir dist",
+    "build": "tsc",
     "start": "node app/dis/server.js",
     "dev": "ts-nodee app/server.ts"
   },
