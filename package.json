@@ -2,7 +2,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node app/dis/server.js",
-    "dev": "ts-nodee app/server.ts"
+    "dev": "ts-node dist/server.js"
   },
   "dependencies": {
     "@hono/node-server": "^1.19.0",
