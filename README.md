@@ -44,5 +44,5 @@ npx prisma generate
 ```
 ## Develop
 ```bash
-npx run build
+npm run build
 ```
