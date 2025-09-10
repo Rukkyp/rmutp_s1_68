@@ -32,7 +32,7 @@ function decrypt(text: string): string {
 
 
 app.get('/', (c) => c.text('Hono!'));
-app.get('/about', (c) => { return c.json({ message: "Tanapat Nunkhong " }) });
+app.get('/about', (c) => { return c.json({ message: "Ruksita Panya " }) });
 app.get("/profile", async (c) => {
     // logic
     const profile = await prisma.profile.findMany();
